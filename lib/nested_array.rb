@@ -35,8 +35,8 @@ def assembled_matrix
 end
 
 def sorted_matrix
-  sorted_matrix = assembled_matrix[0].sort + assembled_matrix[1].sort 
-  sorted_matrix
+   assembled_matrix[0].sort + assembled_matrix[1].sort 
+
   
 end
 
