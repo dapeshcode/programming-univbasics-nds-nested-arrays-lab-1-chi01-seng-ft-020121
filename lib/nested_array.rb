@@ -35,11 +35,9 @@ def assembled_matrix
 end
 
 def sorted_matrix
-  assembled_matrix
-  sorted_row_one = produce_storage_room[0].sort 
-  sorted_row_two = produce_storage_room[1].sort
-  sorted_row_one
-  sorted_row_two
+  sorted_matrix = assembled_matrix[0].sort + assembled_matrix[1].sort 
+  sorted_matrix
+  
 end
 
 def matrix_lookup(matrix, row, column)
