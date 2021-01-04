@@ -37,7 +37,8 @@ end
 def sorted_matrix
   sorted_row_one = produce_storage_room[0].sort 
   sorted_row_two = produce_storage_room[1].sort
-  sorted
+  sorted_row_one
+  sorted_row_two
 end
 
 def matrix_lookup(matrix, row, column)
