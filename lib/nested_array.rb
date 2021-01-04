@@ -35,10 +35,10 @@ def assembled_matrix
 end
 
 def sorted_matrix
-   assembled_matrix[0].sort + assembled_matrix[1].sort 
+   assembled_matrix[0].sort  
+   assembled_matrix[1].sort 
 
-  
-end
+  end
 
 def matrix_lookup(matrix, row, column)
   matrix[row][column]
